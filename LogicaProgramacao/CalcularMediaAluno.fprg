@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="washington.silva"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2021-06-26 11:17:37 "/>
+        <attribute name="created" value="d2FzaGluZ3Rvbi5zaWx2YTtBTVNKUk1CLTAwMDAxOzIwMjEtMDYtMjY7IjEwOjI4OjAwICI7MzY3NA=="/>
+        <attribute name="edited" value="d2FzaGluZ3Rvbi5zaWx2YTtBTVNKUk1CLTAwMDAxOzIwMjEtMDYtMjY7IjExOjE3OjM3ICI7NDszNzk0"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="nota1, nota2, nota3, nota4, media, resultado" type="Integer" array="False" size=""/>
+            <input variable="nota1"/>
+            <input variable="nota2"/>
+            <input variable="nota3"/>
+            <input variable="nota4"/>
+            <assign variable="media" expression="(nota1 + nota2 + nota3 + nota4) / 4"/>
+            <assign variable="resultado" expression="media"/>
+            <if expression="media &gt;= 7">
+                <then>
+                    <output expression="&quot;Aprovado&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;Reprovado&quot;" newline="True"/>
+                </else>
+            </if>
+            <output expression="&quot;Sua media &#233;: &quot; &amp; resultado" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
