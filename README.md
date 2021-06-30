@@ -4,4 +4,6 @@
 
 - Lógica de programação essencial
 
-- [] sim
+- Introdução ao Git e ao GitHub
+
+_atualizado_
